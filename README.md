@@ -1,48 +1,41 @@
-# Procesamiento del Lenguaje natural
-Este repositorio contiene el material de clases (presentaciones, ejercicios y notebooks) para NLP (CEIA - FIUBA)
+<p align="center">
+  <img src="./logoFIUBA.jpg" alt="FIUBA Logo" width="600"/>
+</p>
 
-## Contenido
+# 📘 Diplomatura en Procesamiento del Lenguaje Natural — NLP 1
 
-### [Clase 1](clase_1/README.md) 
-* Introducción a NLP (Natural Language Processing)
-* Vectorización de documentos
+Este repositorio contiene el material y los trabajos prácticos desarrollados durante la materia **NLP 1** de la **Diplomatura en Procesamiento del Lenguaje Natural (FIUBA)**.  
+La asignatura introduce los fundamentos del procesamiento de texto con Python, modelos estadísticos y redes neuronales recurrentes aplicadas al modelado del lenguaje.
 
-### [Clase 2](clase_2/README.md)
-* Preprocesamiento de texto
-* Librerías de preprocesamiento para NLP
-* Information-retrieval bots
+---
 
-### [Clase 3](clase_3/README.md)
-* Word embeddings, CBOW y SkipGRAM
-* Representación de palabras
+📎 [Mi perfil de LinkedIn](https://www.linkedin.com/in/lucasargento)
 
-### [Clase 4](clase_4/README.md)
-* Redes recurrentes (RNN)
-* Problemas de secuencia
-* Estimación de próxima palabra
+---
 
-### [Clase 5](clase_5/README.md)
-* Redes LSTM
-* Análisis de sentimiento (sentiment analysis)
-    
-### [Clase 6](clase_6/README.md)
-* Modelos Seq2Seq
-* Bots conversacionales y traductores
+## 🧠 Sobre la materia
 
-### [Clase 7](clase_7/README.md)
-* Celdas con Attention
-* Transformers
-* BERT y ELMo
-* Fine tuning
+La materia **NLP 1** cubre los principios básicos del procesamiento de lenguaje natural (PLN), incluyendo:
+- Preprocesamiento y tokenización de texto.  
+- Representaciones distribuidas (embeddings, one-hot, etc.).  
+- Modelado de lenguaje con **redes neuronales recurrentes (RNN, LSTM, GRU)** e intro a **transformers y attention**.  
+- Estrategias de generación de texto como *greedy search* y *beam search*.  
+- Evaluación mediante métricas como **perplejidad**.
 
-### [Clase 8](clase_8/README.md)
-* Cierre del curso
-* Deployment de servicio NLP
-* Flask, APIs
-* Docker y Tensorflow Serving (TFX)
+---
 
-# Profesores
-:octocat: Dr. Rodrigo Cardenas Szigety (2022-actual)\
-:octocat: Dr. Nicolás Vattuone (2025-actual)\
-:octocat: Esp. Ing. Hernán Contigiani (2021-2022)
-# nlp_1_dnlp
+## 📂 Estructura del repositorio
+
+Dentro del repositorio vas a encontrar dos carpetas principales:
+
+- **clases/clase_N/**: En esta carpeta se agrupa el material teórico-práctico, organizado por clase. Cada subcarpeta `clase_N` corresponde a la clase N de la materia e incluye notebooks, ejemplos, y recursos utilizados en cada cursada.
+
+- **tps_desafios/**: Aquí se encuentran las entregas de los trabajos prácticos y desafíos realizados a lo largo del curso. Cada TP o desafío está subdividido en carpetas propias con las resoluciones correspondientes.
+
+### 📚 Trabajos prácticos (TPs)
+
+> - **TP1 — Preprocesamiento y tokenización de texto**  
+> - **TP2 — Modelos de lenguaje con RNN**  
+> - **TP3 — Generación de texto caracter-a-caracter con arquitecturas recurrentes: SimpleRNN (Elman), LSTM y GRU. Entrenadas sobre un libro de Alicia en el País de las Maravillas. Implementacion de beam search sobre secuencias generadas por los modelos**  
+> - **TP4 — Evaluación y comparación de estrategias de decodificación**
+
