@@ -37,5 +37,5 @@ Dentro del repositorio vas a encontrar dos carpetas principales:
 > - **TP1 — Vectorización con TFIDF, modelos por prototipos de vectores y similaridad coseno, clasificación con Naive Bayes + TFIDF**  
 > - **TP2 — Creacion de custom embeddings con Gensim. Embeddings entrenados con canciones de Bob Marley.**  
 > - **TP3 — Generación de texto caracter-a-caracter con arquitecturas recurrentes: SimpleRNN (Elman), LSTM y GRU. Entrenadas sobre un libro de Alicia en el País de las Maravillas. Implementacion de beam search sobre secuencias generadas por los modelos**  
-> - **TP4 — Generación de texto seq-to-seq. Creación de un bot de QA con arquitectura **
+> - **TP4 — Generación de texto seq-to-seq. Creación de un bot de QA con arquitectura encoder-decoder y LSTMs. Aplicacion de beam search sobre inferencia autoregresiva. Embeddings entrenables de Glove en encoder/decoder.**
 
